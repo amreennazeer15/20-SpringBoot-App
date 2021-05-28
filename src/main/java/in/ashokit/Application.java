@@ -10,7 +10,7 @@ public class Application {
 
 	private Map<String,Object> cache = new HashMap<String,Object>();
 	private static final String REST_URI = "https://www.equifax.com/getScores";
-	
+	int c= 30;
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
