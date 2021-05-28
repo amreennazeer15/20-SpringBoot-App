@@ -6,6 +6,9 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class Application {
+	
+	private Map<String,Object> cache = new HashMap<String,Object>();
+	
 
 	public static void main(String[] args) {
 		ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
@@ -13,5 +16,9 @@ public class Application {
 		int a =10;
 		context.close();
 	}
+	
+	public void loadDataToCache(){
+		//logic
+	}	
 
 }
