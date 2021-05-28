@@ -12,5 +12,9 @@ public class Application {
 		//changes for HIS-134
 		context.close();
 	}
+	//feature-200
+	public void doProcess(){
+		
+	}	
 
 }
