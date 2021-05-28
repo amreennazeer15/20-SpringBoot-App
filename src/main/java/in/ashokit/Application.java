@@ -6,8 +6,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 @SpringBootApplication
 public class Application {
-	
-
+	int a = 10;
+	int b=20;
 	private Map<String,Object> cache = new HashMap<String,Object>();
 	private static final String REST_URI = "https://www.equifax.com/getScores";
 	
